@@ -156,13 +156,13 @@ class GoRideHomeScreenState extends State<GoRideHomeScreen>
               children: [*/
                       GestureDetector(
                     onTap: () {
-                      Navigator.push(
+                   /*   Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) =>
                               GoRideEditProfileShow(),
                         ),
-                      );
+                      );*/
                     },
                     child: Container(
                       margin: EdgeInsets.only(
@@ -441,13 +441,13 @@ class GoRideHomeScreenState extends State<GoRideHomeScreen>
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
+                    /*  Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) =>
                               GoRideChooseDesScreen(),
                         ),
-                      );
+                      );*/
                     },
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,

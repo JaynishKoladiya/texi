@@ -8,7 +8,6 @@ import 'package:texi/GoRideApp/Helper/GoRideColor.dart';
 import 'GoRideBookLater.dart';
 import 'GoRideDrawerHome.dart';
 import 'GoRideHomeScreen.dart';
-import 'Login/GoRideLoginScreen.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({Key? key}) : super(key: key);
@@ -88,13 +87,13 @@ class _DrawerScreenState extends State<DrawerScreen> {
                         radius: 13,
                         child: FloatingActionButton(
                             onPressed: () {
-                              Navigator.push(
+                        /*      Navigator.push(
                                 context,
                                 MaterialPageRoute(
                                   builder: (BuildContext context) =>
                                       GoRideEditProfileShow(),
                                 ),
-                              );
+                              );*/
                             },
                             backgroundColor: GoRideColors.yellow,
                             mini: true,
@@ -156,7 +155,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                                         HomePage(),
                                   ),
                                 );
-                              } else if (element["id"] == 2) {
+                              } /*else if (element["id"] == 2) {
                                 Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
@@ -180,7 +179,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                                         GoRidePaymentMethod(),
                                   ),
                                 );
-                              } else if (element["id"] == 5) {
+                              }*/ else if (element["id"] == 5) {
                                 Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
@@ -209,14 +208,14 @@ class _DrawerScreenState extends State<DrawerScreen> {
             ),
           ),
           GestureDetector(
-            onTap: () {
+           /* onTap: () {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
                   builder: (BuildContext context) => GoRideLoginScreen(),
                 ),
               );
-            },
+            },*/
             child: Container(
               padding: EdgeInsets.only(
                   bottom: 60, left: MediaQuery.of(context).size.width * .08),

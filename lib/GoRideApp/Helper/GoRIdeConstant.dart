@@ -9,7 +9,7 @@ class GoRideConstant {
   }
 
   static String getSvgImagePath(String imageName) {
-    return "assets/images/fullApps/goRide/$imageName";
+    return "assets/$imageName";
   }
 
   static BoxDecoration boxDecorationContainer(Color color, bool shadow) {

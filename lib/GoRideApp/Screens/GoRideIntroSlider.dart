@@ -8,8 +8,6 @@ import 'package:texi/GoRideApp/Helper/GoRideStringRes.dart';
 import 'package:texi/widget/AppBar.dart';
 
 
-import 'Login/GoRideLoginScreen.dart';
-
 class GoRideIntroSlider extends StatefulWidget {
   const GoRideIntroSlider({Key? key}) : super(key: key);
 
@@ -139,12 +137,12 @@ class GoRideIntroSliderState extends State<GoRideIntroSlider> {
                       _pageController.jumpToPage(2);
                     });
                   } else if (currentIndex == 2) {
-                    Navigator.pushReplacement(
+                   /* Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
                         builder: (BuildContext context) => GoRideLoginScreen(),
                       ),
-                    );
+                    );*/
                   }
                 },
                 style: ElevatedButton.styleFrom(
@@ -196,12 +194,12 @@ class GoRideIntroSliderState extends State<GoRideIntroSlider> {
             _pageController.jumpToPage(2);
           });
         } else if (currentIndex == 2) {
-          Navigator.pushReplacement(
+        /*  Navigator.pushReplacement(
             context,
             MaterialPageRoute(
               builder: (BuildContext context) => GoRideLoginScreen(),
             ),
-          );
+          );*/
         }
       },
       child: Text("Skip",

@@ -314,12 +314,12 @@ class GoRideEndRideState extends State<GoRideEndRide>
   Widget endRideBtn() {
     return ElevatedButton(
       onPressed: () {
-        Navigator.push(
+     /*   Navigator.push(
           context,
           MaterialPageRoute(
             builder: (BuildContext context) => GoRideRating(),
           ),
-        );
+        );*/
       },
       child: Text(
         GoRideStringRes.endRide,
