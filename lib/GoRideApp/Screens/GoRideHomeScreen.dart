@@ -8,9 +8,8 @@ import 'package:octo_image/octo_image.dart';
 
 import 'package:texi/GoRideApp/Helper/GoRIdeConstant.dart';
 import 'package:texi/GoRideApp/Helper/GoRideColor.dart';
-import 'package:texi/GoRideApp/Screens/Payment/GoRideChooseDesScreen.dart';
-import 'Profile/GoRideEditProfileShowData.dart';
 
+import '../../widget/slideAnimation.dart';
 class GoRideHomeScreen extends StatefulWidget {
   const GoRideHomeScreen({Key? key}) : super(key: key);
 

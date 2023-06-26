@@ -5,14 +5,10 @@ import 'package:octo_image/octo_image.dart';
 import 'package:texi/GoRideApp/Helper/GoRIdeConstant.dart';
 import 'package:texi/GoRideApp/Helper/GoRideColor.dart';
 
-import 'Address/GoRideMyAddress.dart';
 import 'GoRideBookLater.dart';
 import 'GoRideDrawerHome.dart';
 import 'GoRideHomeScreen.dart';
 import 'Login/GoRideLoginScreen.dart';
-import 'MyTrip/GoRideMyTrips.dart';
-import 'Payment/GoRidePlaymentMehod.dart';
-import 'Profile/GoRideEditProfileShowData.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({Key? key}) : super(key: key);

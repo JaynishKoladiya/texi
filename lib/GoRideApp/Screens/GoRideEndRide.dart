@@ -6,7 +6,6 @@ import 'package:octo_image/octo_image.dart';
 import 'package:texi/GoRideApp/Helper/GoRIdeConstant.dart';
 import 'package:texi/GoRideApp/Helper/GoRideColor.dart';
 import 'package:texi/GoRideApp/Helper/GoRideStringRes.dart';
-import 'package:texi/GoRideApp/Screens/Payment/GoRideRating.dart';
 
 class GoRideEndRide extends StatefulWidget {
   const GoRideEndRide({Key? key}) : super(key: key);

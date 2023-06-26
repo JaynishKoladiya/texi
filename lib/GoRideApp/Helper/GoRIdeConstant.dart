@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smartkit_pro/ui/fullApps/goRide/GoRideApp/Helper/GoRideColor.dart';
-import 'package:smartkit_pro/ui/fullApps/goRide/GoRideApp/Screens/Widget/GoRideRatingWidget.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+
+import 'GoRideColor.dart';
 
 class GoRideConstant {
   static String getPngImagePath(String imageName) {
